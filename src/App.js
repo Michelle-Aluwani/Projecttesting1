@@ -7,7 +7,6 @@ import {Route ,Routes} from "react-router-dom";
 import  {Login} from "./components/login";
 import {Homepage} from "./components/homepage";
 import {ForgotPassword} from "./components/forgotpassword";
-import { useNavigate } from 'react-router-dom';
 import { auth } from './config/firebase'; 
 function App() {
  
